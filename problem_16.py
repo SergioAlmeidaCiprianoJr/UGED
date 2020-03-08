@@ -22,4 +22,4 @@ num = fast_exp_mod(2, 1000)
 print(sum_digits(num))
 # Short Answer
 # num = pow(2, 1000)
-# print(num)
+# print(sum_digits(num))
