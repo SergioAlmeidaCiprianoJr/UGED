@@ -1,8 +1,7 @@
-def fast_exp_mod(a, n):
+def fast_exp(base, n):
 	res = 1
-	base = a
 
-	while(n!=0):
+	while(n):
 		if(n & 1):
 			res = (res*base)
 
@@ -18,7 +17,7 @@ def sum_digits(num):
 		num //= 10
 	return total
 
-num = fast_exp_mod(2, 1000)
+num = fast_exp(2, 1000)
 print(sum_digits(num))
 # Short Answer
 # num = pow(2, 1000)
